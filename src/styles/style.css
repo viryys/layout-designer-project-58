@@ -1,7 +1,78 @@
-/** CSS STYLE **/
+@font-face {
+  font-family: Neucha;
+  src: url("../../assets/fonts/Neucha/Neucha-Regular.ttf");
+}
 
-.hello {
-  display: block;
+@font-face {
+  font-family: "Open Sans";
+  font-weight: normal;
+  src: url("../../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf");
+}
 
-  color: #fff;
+@font-face {
+  font-family: "Open Sans";
+  font-weight: bold;
+  src: url("../../assets/fonts/Open_Sans/static/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../../assets/fonts/Open_Sans/static/OpenSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../../assets/fonts/Open_Sans/static/OpenSans-BoldItalic.ttf");
+}
+
+
+:root {
+  --white: #fff;
+  --white-50: #d7ccc0;
+  --light: #f5f4f0;
+  --main: #fe8a02;
+  --main-dark: #42413c;
+  --dark: #2a2626;
+  --dark-50: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2em;
+  font-family: Neucha, sans-serif;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: var(--dark);
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0;
 }
