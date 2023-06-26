@@ -1,0 +1,20 @@
+{
+  "name": "html5-css-design-project-58",
+  "version": "0.1.0",
+  "description": "Когнетивные искажения",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viryys/layout-designer-project-58"
+  },
+  "main": "",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.2.0",
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-scss": "^4.4.0",
+    "surge": "^0.23.1"
+  },
+  "author": "Vadim Tatarchuk",
+  "license": "ISC"
+}
