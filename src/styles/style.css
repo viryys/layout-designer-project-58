@@ -42,6 +42,10 @@
   --blue: #1085c5;
 }
 
+html, body {
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -50,6 +54,7 @@ h5,
 h6 {
   line-height: 1.2em;
   font-family: Neucha, sans-serif;
+  font-weight: normal;
 }
 
 h1 {
@@ -73,6 +78,74 @@ p {
 
 .container {
   width: 1110px;
-  margin: 0 auto;
-  padding: 100px 0;
+  margin: 100px auto;
+  position: relative;
+}
+
+.header-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.header-wrapper:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+
+  background-color: var(--light);
+  background-image: url("../../assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .9;
+}
+
+.header-title {
+  padding-top: 6px;
+}
+
+.header-image {
+  height: 525px;
+  position: absolute;
+  top: -45px;
+  right: -270px;
+  z-index: -1;
+}
+
+.header-text {
+  margin-top: 193px;
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.header-text > p {
+  margin-top: 0;
+}
+
+.break-before {
+  break-before: column;
+}
+
+.main-text {
+  color: var(--main);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.primary {
+  color: var(--white);
+  background: var(--main);
+  padding: 12px 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.primary:hover {
+  background: #EA7600;
 }
