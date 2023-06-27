@@ -56,6 +56,7 @@ h6 {
   line-height: 1.2em;
   font-family: Neucha, sans-serif;
   font-weight: normal;
+  color: var(--main);
 }
 
 h1 {
@@ -74,7 +75,6 @@ p {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
-  color: var(--dark);
 }
 
 .align-center {
@@ -87,6 +87,10 @@ p {
 
 .main-text {
   color: var(--main);
+}
+
+.dark-text {
+  color: var(--dark);
 }
 
 .text-uppercase {
@@ -151,6 +155,7 @@ p {
   margin-top: 193px;
   column-count: 2;
   column-gap: 30px;
+  color: var(--dark);
 }
 
 .header-text > p {
@@ -224,6 +229,7 @@ p {
 
 .nav-item p {
   margin-bottom: 0;
+  color: var(--dark);
 }
 
 .nav-number {
@@ -266,8 +272,7 @@ p {
   color: var(--white-50);
 }
 
-.light-text h2,
-.light-text h3 {
+.light-text .text-white {
   color: var(--white);
 }
 
