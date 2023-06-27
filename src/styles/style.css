@@ -236,6 +236,20 @@ p {
   padding: 0;
 }
 
+a.nav-item {
+  text-decoration: none;
+}
+
+a.nav-item:hover {
+  background-color: var(--main);
+}
+
+a.nav-item:hover .nav-number,
+a.nav-item:hover h3,
+a.nav-item:hover p {
+  color: var(--white);
+}
+
 .nav-item h2 {
   font-size: 52px;
   margin: 0;
