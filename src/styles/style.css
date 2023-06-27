@@ -44,6 +44,7 @@
 
 html, body {
   margin: 0;
+  line-height: 16px;
 }
 
 h1,
@@ -75,6 +76,35 @@ p {
   line-height: 1.6em;
   color: var(--dark);
 }
+
+.align-center {
+  text-align: center;
+}
+
+.break-before {
+  break-before: column;
+}
+
+.main-text {
+  color: var(--main);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.primary {
+  color: var(--white);
+  background: var(--main);
+  padding: 12px 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.primary:hover {
+  background: #EA7600;
+}
+
 
 .container {
   width: 1110px;
@@ -126,26 +156,34 @@ p {
   margin-top: 0;
 }
 
-.break-before {
-  break-before: column;
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
 }
 
-.main-text {
-  color: var(--main);
+.video-wrapper:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+
+  width: 100%;
+  height: 100px;
+
+  background-color: var(--main-dark);
 }
 
-.text-uppercase {
-  text-transform: uppercase;
+.video-wrapper h2 {
+  margin-bottom: 30px;
 }
 
-.primary {
-  color: var(--white);
-  background: var(--main);
-  padding: 12px 24px;
-  font-weight: bold;
-  text-decoration: none;
+.video-wrapper .video {
+  display: block;
+  margin: 30px auto -84px;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-.primary:hover {
-  background: #EA7600;
+footer {
+  background-color: var(--white-50);
+  overflow: hidden;
 }
