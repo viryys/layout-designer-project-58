@@ -146,6 +146,10 @@ p {
   z-index: 2;
 }
 
+#errors-in-planning .container {
+  margin: 100px auto 114px;
+}
+
 .dark-wrapper:before,
 .light-wrapper:before {
   opacity: .06;
@@ -362,7 +366,7 @@ a.nav-item:hover p {
 .column-wrapper {
   clear: both;
   column-count: 2;
-  column-gap: 30px;
+  column-gap: 29px;
 }
 
 .column-wrapper p {
