@@ -213,6 +213,8 @@ p {
 .navigation-wrapper {
   background-color: var(--main-dark);
   overflow: hidden;
+  padding-top: 100px;
+  margin-top: -100px;
 }
 
 .navigation-wrapper .container {
@@ -293,6 +295,10 @@ a.nav-item:hover p {
 .article-img {
   margin-bottom: 100px;
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.15);
+}
+
+.dark-wrapper .article-img {
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
 }
 
 .dark-text .article-tag {
