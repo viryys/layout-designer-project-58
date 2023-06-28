@@ -1,32 +1,32 @@
 @font-face {
   font-family: Neucha;
-  src: url("../../assets/fonts/Neucha/Neucha-Regular.ttf");
+  src: url("../assets/fonts/Neucha/Neucha-Regular.ttf");
 }
 
 @font-face {
   font-family: "Open Sans";
   font-weight: normal;
-  src: url("../../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf");
+  src: url("../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "Open Sans";
   font-weight: bold;
-  src: url("../../assets/fonts/Open_Sans/static/OpenSans-Bold.ttf");
+  src: url("../assets/fonts/Open_Sans/static/OpenSans-Bold.ttf");
 }
 
 @font-face {
   font-family: "Open Sans";
   font-style: italic;
   font-weight: normal;
-  src: url("../../assets/fonts/Open_Sans/static/OpenSans-Italic.ttf");
+  src: url("../assets/fonts/Open_Sans/static/OpenSans-Italic.ttf");
 }
 
 @font-face {
   font-family: "Open Sans";
   font-style: italic;
   font-weight: bold;
-  src: url("../../assets/fonts/Open_Sans/static/OpenSans-BoldItalic.ttf");
+  src: url("../assets/fonts/Open_Sans/static/OpenSans-BoldItalic.ttf");
 }
 
 
@@ -132,7 +132,7 @@ p {
   top: 0;
 
   background-color: transparent;
-  background-image: url("../../assets/images/background.png");
+  background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: .06;
@@ -442,7 +442,7 @@ footer .container h3 {
 }
 
 .contactUs button:before {
-  content: url("../../assets/images/send.svg");
+  content: url("../assets/images/send.svg");
 }
 
 footer .container h3 {
