@@ -135,7 +135,7 @@ p {
   background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: .06;
+  opacity: .1;
 }
 
 .header-wrapper {
@@ -152,7 +152,6 @@ p {
 
 .dark-wrapper:before,
 .light-wrapper:before {
-  opacity: .06;
   z-index: 0;
 }
 
@@ -179,7 +178,7 @@ p {
 .header-text {
   margin-top: 193px;
   column-count: 2;
-  column-gap: 30px;
+  column-gap: 29px;
   color: var(--dark);
 }
 
@@ -298,11 +297,11 @@ a.nav-item:hover p {
 
 .article-img {
   margin-bottom: 100px;
-  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .dark-wrapper .article-img {
-  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .dark-text .article-tag {
